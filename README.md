@@ -23,6 +23,8 @@ Swift Toolchain and SDK for Windows x64.
 [![SR-13225](https://img.shields.io/jira/issue/SR-13225?baseUrl=https%3A%2F%2Fbugs.swift.org&color=critical&style=flat-square)](https://bugs.swift.org/browse/SR-13225)
 - Windows, Dispatch crashes after network request timeout\
 [![SR-13383](https://img.shields.io/jira/issue/SR-13383?baseUrl=https%3A%2F%2Fbugs.swift.org&color=critical&style=flat-square)](https://bugs.swift.org/browse/SR-13383)
+- Wrong method call when binary is built with optimizations\
+[![SR-13449](https://img.shields.io/jira/issue/SR-13449?baseUrl=https%3A%2F%2Fbugs.swift.org&color=critical&style=flat-square)](https://bugs.swift.org/browse/SR-13449)
 
 ## Untracked Issues
 - Broken synthesis of the CodingKeys\
