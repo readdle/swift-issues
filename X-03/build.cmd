@@ -5,6 +5,7 @@ set SDKROOT=%SystemDrive%\Library\Developer\Platforms\Windows.platform\Developer
 set SWIFTFLAGS=-sdk %SDKROOT% -I %SDKROOT%\usr\lib\swift -L %SDKROOT%\usr\lib\swift\windows -O
 
 %SWIFTC% -emit-executable %SWIFTFLAGS% x03.swift -o x03.exe
+if errorlevel 1 goto :eof
 
 set PATH=%PATH%;%SDKROOT%\usr\bin;%SystemDrive%\Library\icu-67\usr\bin
 
